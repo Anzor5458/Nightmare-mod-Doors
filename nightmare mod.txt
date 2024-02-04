@@ -1,0 +1,81 @@
+firesignal(game:GetService("ReplicatedStorage").EntityInfo.Caption.OnClientEvent, 'nightmare mod',,true,2)
+wait(1)
+firesignal(game:GetService("ReplicatedStorage").EntityInfo.Caption.OnClientEvent, 'doors',true,1)
+-- Custom Door Sounds
+loadstring(game:HttpGet("https://pastebin.com/raw/iAhTGdBh"))()
+loadstring(game:HttpGet("https://pastebin.com/raw/6brG9uma"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/iCherryKardes/Doors/main/Floor%202%20Mod"))()
+ 
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+
+-- greed
+coroutine.wrap(function()
+    while true do
+        wait(math.random(55,250))
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+wait(0.5)
+if workspace:FindFirstChild("SeekMoving") == nil and game:GetService("ReplicatedStorage").GameData.LatestRoom.Value ~= 50 then
+loadstring(game:HttpGet("https://pastebin.com/raw/1DZ5dbEc"))()
+end
+    end
+end)()
+
+-- whirl
+coroutine.wrap(function()
+    while true do
+        wait(math.random(55,250))
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+wait(0.5)
+if workspace:FindFirstChild("SeekMoving") == nil and game:GetService("ReplicatedStorage").GameData.LatestRoom.Value ~= 50 then
+loadstring(game:HttpGet("https://pastebin.com/raw/WqvAd0zY"))()
+end
+    end
+end)()
+
+-- Abyss
+coroutine.wrap(function()
+    while true do
+        wait(math.random(55,250))
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+wait(0.5)
+if workspace:FindFirstChild("SeekMoving") == nil and game:GetService("ReplicatedStorage").GameData.LatestRoom.Value ~= 50 then
+loadstring(game:HttpGet("https://pastebin.com/raw/Tuf6eS1F"))()
+end
+    end
+end)()
+
+-- block
+coroutine.wrap(function()
+    while true do
+        wait(math.random(55,250))
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+wait(0.5)
+if workspace:FindFirstChild("SeekMoving") == nil and game:GetService("ReplicatedStorage").GameData.LatestRoom.Value ~= 50 then
+loadstring(game:HttpGet("https://pastebin.com/raw/t94BBAXR"))()
+end
+    end
+end)()
+
+-- the intruder
+coroutine.wrap(function()
+    while true do
+        wait(math.random(55,250))
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+wait(0.5)
+if workspace:FindFirstChild("SeekMoving") == nil and game:GetService("ReplicatedStorage").GameData.LatestRoom.Value ~= 50 then
+loadstring(game:HttpGet("https://pastebin.com/raw/yDa64QNi"))()
+end
+    end
+end)()
+
+-- Glare
+coroutine.wrap(function()
+    while true do
+        wait(math.random(55,250))
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+wait(0.5)
+if workspace:FindFirstChild("SeekMoving") == nil and game:GetService("ReplicatedStorage").GameData.LatestRoom.Value ~= 50 then
+loadstring(game:HttpGet("https://pastebin.com/raw/NzTPnWMy"))()
+end
+    end
+end)()
